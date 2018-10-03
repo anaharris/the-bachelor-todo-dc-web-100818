@@ -33,6 +33,7 @@ end
 def count_contestants_by_hometown(data, hometown)
   cont = []
   data.each do |season, arr|
+    arr.each do |info|
 end
 
 def get_occupation(data, hometown)
