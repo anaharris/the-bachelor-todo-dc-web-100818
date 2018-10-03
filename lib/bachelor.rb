@@ -63,4 +63,6 @@ def get_average_age_for_season(data, season)
   age.each do |i|
     sum += i
   end
+  num_of_el = age.length
+  
 end
