@@ -19,8 +19,10 @@ end
 #get_first_name_of_season_winner(data, "season 14")
 
 def get_contestant_name(data, occupation)
-  job = " "
+  name = " "
   data.each do |season, arr|
+    arr.each do |info|
+      if info["occupation"]
     if arr_el["status"] == "Winner"
       winners_name = arr_el["name"]
       winner = winners_name.split(" ").first
