@@ -20,7 +20,7 @@ end
 
 def get_contestant_name(data, occupation)
   job = " "
-  data.each do |arr_el|
+  data.each do |season, |
     # puts arr_el.inspect
     if arr_el["status"] == "Winner"
       winners_name = arr_el["name"]
