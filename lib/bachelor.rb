@@ -23,9 +23,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, arr|
     arr.each do |info|
       if info["occupation"] == occupation
-    if arr_el["status"] == "Winner"
-      winners_name = arr_el["name"]
-      winner = winners_name.split(" ").first
+        
     end
   end
   return winner
