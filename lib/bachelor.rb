@@ -19,7 +19,7 @@ end
 #get_first_name_of_season_winner(data, "season 14")
 
 def get_contestant_name(data, occupation)
-  winner = nil
+  occupation = ""
   data[season].each do |arr_el|
     # puts arr_el.inspect
     if arr_el["status"] == "Winner"
