@@ -36,6 +36,9 @@ def count_contestants_by_hometown(data, hometown)
     arr.each do |info|
       if info["hometown"] == hometown
         cont << info["name"]
+      end
+    end
+  end
 end
 
 def get_occupation(data, hometown)
