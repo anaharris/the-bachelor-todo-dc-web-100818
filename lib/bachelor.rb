@@ -6,7 +6,6 @@ def get_first_name_of_season_winner(data, season)
   winners_name = ""
   winner = nil
   data[season].each do |arr_el|
-    # puts arr_el.inspect
     if arr_el["status"] == "Winner"
       winners_name = arr_el["name"]
       winner = winners_name.split(" ").first
