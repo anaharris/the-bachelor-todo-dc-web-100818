@@ -23,7 +23,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, arr|
     arr.each do |info|
       if info["occupation"] == occupation
-        
+        cont_name = info["name"]
     end
   end
   return winner
