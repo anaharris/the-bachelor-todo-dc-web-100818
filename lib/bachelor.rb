@@ -61,6 +61,6 @@ def get_average_age_for_season(data, season)
     age << info["age"].to_i
   end
   age.each do |i|
-    
+    sum += i
   end
 end
