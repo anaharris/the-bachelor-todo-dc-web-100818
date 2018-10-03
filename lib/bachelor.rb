@@ -53,6 +53,7 @@ def get_occupation(data, hometown)
   return jobs[0]
 end
 
+
 def get_average_age_for_season(data, season)
   age = []
   sum = 0
