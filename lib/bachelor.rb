@@ -26,6 +26,7 @@ def get_contestant_name(data, occupation)
         cont_name = info["name"]
     end
   end
+end
   return cont_name
 end
 
